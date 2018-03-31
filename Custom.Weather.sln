@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Custom.Weather.Web", "Custom.Weather.Web\Custom.Weather.Web.csproj", "{CA9EC3FB-FC9D-4C50-8BD9-6CF327CF2A57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom.Weather.Contracts", "Custom.Weather.Contracts\Custom.Weather.Contracts.csproj", "{452E1B58-C441-437A-9384-1E5287437CAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Custom.Weather.Contracts", "Custom.Weather.Contracts\Custom.Weather.Contracts.csproj", "{452E1B58-C441-437A-9384-1E5287437CAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom.Weather.Service", "Custom.Weather.Service\Custom.Weather.Service.csproj", "{A84C3852-7A1A-4CEA-B244-FCE7D5991C90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{452E1B58-C441-437A-9384-1E5287437CAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{452E1B58-C441-437A-9384-1E5287437CAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{452E1B58-C441-437A-9384-1E5287437CAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A84C3852-7A1A-4CEA-B244-FCE7D5991C90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A84C3852-7A1A-4CEA-B244-FCE7D5991C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A84C3852-7A1A-4CEA-B244-FCE7D5991C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A84C3852-7A1A-4CEA-B244-FCE7D5991C90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
